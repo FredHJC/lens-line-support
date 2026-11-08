@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LensLine Support</title>
+<style>
+  :root { --bg: #ffffff; --text: #1d1d1f; --muted: #6e6e73; --accent: #b7791f; --rule: #e5e5ea; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #161514; --text: #f2f0ec; --muted: #a19d97; --accent: #ffc552; --rule: #2e2c2a; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Helvetica Neue", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 20px; margin: 32px 0 8px; }
+  h3 { font-size: 17px; margin: 20px 0 4px; }
+  p { margin: 0 0 12px; }
+  .lead { color: var(--muted); margin: 0 0 24px; }
+  a { color: var(--accent); }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 48px 0; }
+</style>
+</head>
+<body>
+<main>
+  <section lang="en">
+    <h1>LensLine Support</h1>
+    <p class="lead">The teleprompter that follows your voice · <a href="#zh">中文</a></p>
+
+    <h2>Contact</h2>
+    <p>Questions, bugs or ideas: <a href="mailto:lenslinedev@gmail.com">lenslinedev@gmail.com</a>. Please include your iPhone model and iOS version.</p>
+
+    <h2>Common questions</h2>
+    <h3>The script doesn't move when I talk.</h3>
+    <p>Follow mode starts after you read about three words of the script in a row, so small talk doesn't move it. Check that the microphone and speech recognition are allowed in Settings › LensLine, and that the status says "Listening" or "Following".</p>
+    <h3>It jumped back when I didn't retake.</h3>
+    <p>Repeating a few words of a recent sentence counts as a retake. In the prompter, tap <strong>Aa</strong> and set Retake sensitivity to Relaxed, or turn Retake detection off in Settings.</p>
+    <h3>Follow is slow or doesn't work offline.</h3>
+    <p>The first time you use a language, its on-device speech model downloads. Until it finishes, the older recognizer is used. <strong>Aa › Recognizer</strong> shows which one is active.</p>
+    <h3>Where are my takes?</h3>
+    <p>With "Save takes to Photos" on, each take is saved to your photo library when you stop recording. The review screen lists when each retake happened, so you know where to cut.</p>
+    <h3>Can I use my own text?</h3>
+    <p>Yes. Tap + to write or paste a script, or import a text file from Files.</p>
+
+    <p><a href="privacy.html">Privacy Policy</a></p>
+  </section>
+
+  <hr>
+
+  <section lang="zh-Hans" id="zh">
+    <h1>LensLine 支持</h1>
+    <p class="lead">跟着你的声音滚动的提词器</p>
+
+    <h2>联系方式</h2>
+    <p>问题、错误反馈或建议：<a href="mailto:lenslinedev@gmail.com">lenslinedev@gmail.com</a>。请注明你的 iPhone 型号和 iOS 版本。</p>
+
+    <h2>常见问题</h2>
+    <h3>我说话时脚本不动。</h3>
+    <p>跟读模式在你连续读出约 3 个脚本中的词后才开始滚动，所以闲聊不会让它移动。请在"设置"›"LensLine"中确认已允许麦克风和语音识别，并确认状态显示"聆听中"或"跟读中"。</p>
+    <h3>我没有重录，它却跳回去了。</h3>
+    <p>重复最近一句里的几个词会被当作重录。在提词页面轻点 <strong>Aa</strong>，把"重录灵敏度"设为"宽松"，或在设置中关闭"重录检测"。</p>
+    <h3>跟读很慢，或者离线时不能用。</h3>
+    <p>第一次使用某种语言时，会自动下载它的设备端语音模型，下载完成前使用较早的识别器。<strong>Aa › 识别器</strong>会显示当前使用的是哪一个。</p>
+    <h3>录好的视频在哪里？</h3>
+    <p>打开"将视频存入'照片'"后，每次停止录制，视频都会存进照片图库。回看页面会列出每次重录的时间点，方便你剪辑。</p>
+    <h3>可以用我自己的文稿吗？</h3>
+    <p>可以。轻点 + 写下或粘贴脚本，也可以从"文件"导入文本文件。</p>
+
+    <p><a href="privacy.html">隐私政策</a></p>
+  </section>
+</main>
+</body>
+</html>
